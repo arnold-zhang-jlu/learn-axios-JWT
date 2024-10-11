@@ -14,6 +14,10 @@ const router = createBrowserRouter([
     path: "/register",
     element: <div>register</div>,
   },
+  {
+    path: "/api/test",
+    element: <div>test</div>,
+  },
 ]);
 
 export default router;
